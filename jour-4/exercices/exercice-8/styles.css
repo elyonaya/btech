@@ -1,0 +1,22 @@
+div {
+    width: 500px;
+    padding: 15px;
+    font-family: Arial;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+div:hover {
+    box-shadow: -2px 2px 5px black;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+}

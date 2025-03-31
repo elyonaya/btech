@@ -1,0 +1,15 @@
+#premier-p {
+    font-weight: bold;
+}
+
+#deuxieme-p {
+    font-style: italic;
+}
+
+#troisieme-p {
+    text-decoration: underline;
+}
+
+#quatrieme-p {
+    text-decoration: line-through;
+}

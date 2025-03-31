@@ -1,0 +1,30 @@
+div {
+    border: 1px solid lightgrey;
+    width: 200px;
+    text-align: center;
+}
+
+.titre {
+    font-style: italic;
+    font-size: large;
+}
+
+.paragraphe {
+    font-size: 14px;
+}
+
+.bouton {
+    background-color: grey;
+    color: lightgray;
+    border-radius: 5px;
+}
+
+#card-1 {
+    font-family: Arial;
+    color: red;
+}
+
+#card-2 {
+    font-family: Georgia;
+    color: blue;
+}

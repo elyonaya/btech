@@ -1,0 +1,7 @@
+.bordure-paragraphe {
+    border: 2px solid blue;
+}
+
+#container {
+    border: 2px dashed red;
+}

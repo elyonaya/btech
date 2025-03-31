@@ -1,0 +1,20 @@
+.liste {
+    list-style: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMnB4IiBoZWlnaHQ9IjEycHgiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJtMTIgMTcuMjc1bC00LjE1IDIuNXEtLjI3NS4xNzUtLjU3NS4xNXQtLjUyNS0uMnQtLjM1LS40Mzd0LS4wNS0uNTg4bDEuMS00LjcyNUwzLjc3NSAxMC44cS0uMjUtLjIyNS0uMzEyLS41MTN0LjAzNy0uNTYydC4zLS40NXQuNTUtLjIyNWw0Ljg1LS40MjVsMS44NzUtNC40NXEuMTI1LS4zLjM4OC0uNDV0LjUzNy0uMTV0LjUzNy4xNXQuMzg4LjQ1bDEuODc1IDQuNDVsNC44NS40MjVxLjM1LjA1LjU1LjIyNXQuMy40NXQuMDM4LjU2M3QtLjMxMy41MTJsLTMuNjc1IDMuMTc1bDEuMSA0LjcyNXEuMDc1LjMyNS0uMDUuNTg4dC0uMzUuNDM3dC0uNTI1LjJ0LS41NzUtLjE1eiIvPjwvc3ZnPg==");
+    border: 2px solid pink;
+}
+
+#premiere-liste {
+    background-color: beige;
+}
+
+#deuxieme-liste {
+    background-color: bisque;
+}
+
+.impair {
+    color: orange;
+}
+
+.pair {
+    color: palevioletred;
+}

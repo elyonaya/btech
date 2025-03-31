@@ -1,0 +1,37 @@
+div {
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+img {
+    border-radius: 15px 15px 0 0;
+}
+
+.titre {
+    font-style: italic;
+    font-size: large;
+}
+
+.paragraphe {
+    font-size: 14px;
+}
+
+.bouton {
+    background-color: grey;
+    color: lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+#card-1 {
+    font-family: Arial;
+    color: red;
+}
+
+#card-2 {
+    font-family: Georgia;
+    color: blue;
+}
