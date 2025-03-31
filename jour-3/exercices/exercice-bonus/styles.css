@@ -1,0 +1,13 @@
+header {
+    color: red;
+}
+
+article {
+    color: rgb(255, 0, 0);
+}
+
+footer {
+    color: #FF0000;
+}
+
+/* Comment intégrer du HTML dans le code CSS ? */

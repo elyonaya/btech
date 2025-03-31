@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+h1, h2 {
+    color: lightcoral; /* colorer le titre en corail */
+    background-color: beige; /* colorer le fond du titre en beige */
+}
+
+p { 
+    color: lightpink; /* colorer le texte en rose */
+}

@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New';
+    color: aquamarine;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    color: bisque;
+}
+
+ul {
+    background-color: lightgrey;
+}
+
+li {
+    color: gray;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50px;
+    width: 50%;
+}

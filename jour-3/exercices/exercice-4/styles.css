@@ -1,0 +1,6 @@
+img {
+    width: 400px;
+    border: 10px solid greenyellow;
+    border-radius: 15%;
+    box-shadow: 0 10px 10px green;
+}
