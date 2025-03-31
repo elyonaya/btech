@@ -1,0 +1,36 @@
+#titre-principal {
+    text-align: center;
+    background-color: orange;
+    font-size: 52px;
+}
+
+.impair {
+    color: darkgray;
+}
+
+.introduction {
+    background-color: coral;
+    font-style: italic;
+}
+
+.introduction:hover {
+    background-color: crimson;
+}
+
+/* les pseudo-classes */
+a:link {
+    color: pink; /* modifier la couleur d'un lien que l'on a pas encore visité/cliqué */
+}
+
+a:hover {
+    color: orange; /* modifier la couleur d'un lien en passant la souris dessus (sans cliquer) */
+    font-size: large; /* modifier la taille d'un lien en passant la souris dessus (sans cliquer) */
+}
+
+a:active {
+    color: green; /* modifier la couleur d'un lien sur lequel on clique et maintient */
+}
+
+a:visited {
+    color: brown; /* modifier la couleur d'un lien que l'on a visité/cliqué */
+}
