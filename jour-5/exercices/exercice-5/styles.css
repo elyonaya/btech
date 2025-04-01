@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    border: 2px solid grey;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+header {
+    font-weight: bold;
+    border: 2px solid red;
+    background: lightcoral;
+    padding: 20px;
+    margin: 20px;
+}
+
+main {
+    font-style: italic;
+    border: 3px dashed green;
+    background-color: lightgreen;
+    padding: 16px 8px;
+    margin: 16px 8px;
+}
+
+footer {
+    border: 2px solid blue;
+    background-color: lightblue;
+    padding: 8px;
+    margin: 8px;
+}

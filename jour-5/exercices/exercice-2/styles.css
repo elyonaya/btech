@@ -1,0 +1,7 @@
+li {
+    background-color: lightgray;
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    margin: 12px;
+}

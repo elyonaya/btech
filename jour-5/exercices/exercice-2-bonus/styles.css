@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 150px;
+}
+
+li {
+    background-color: lightgray;
+    border-radius: 10px;
+    list-style: none;
+    display: inline;
+    padding: 22px;
+    margin: 12px;
+}
+
+li:hover {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}

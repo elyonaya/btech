@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+ul {
+    background-color: lightslategray;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, h4, p {
+    margin: 20px;
+}

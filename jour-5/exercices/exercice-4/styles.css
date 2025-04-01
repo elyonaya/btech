@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    border: 2px solid lightgrey;
+    text-align: center;
+}
+
+header {
+    font-weight: bold;
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+
+main {
+    font-style: italic;
+    border: 3px dashed lightgreen;
+    padding: 16px 8px;
+}
+
+footer {
+    border: 2px solid salmon;
+    padding: 8px;
+}
