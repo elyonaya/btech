@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: bisque;
+    display: block;
+    width: 120px;
+}
+
+p {
+    background-color: beige;
+    display: block;
+    /* height: 120px; */
+    width: 250px;
+    padding: 42px 20px 42px 20px; /* ajoute du padding dans le sens des aiguilles d'une montre */
+    border: 2px solid lightgreen;
+    margin: 42px 20px 42px 20px; /* ajoute de la margin dans le sens des aiguilles d'une montre */
+}
+
+a {
+    background-color: pink;
+    display: inline-block;  /* comportement display inline, auquel on peut modifier les dimensions */
+    width: 150px; /* ne sera pas pris en compte pour un élément inline */
+    height: 20px; /* ne sera pas pris en compte pour un élément inline */
+    padding: 5px; /* à éviter sur les éléments inline */
+    border: 2px solid lightcoral;
+    margin: 10px; /* à éviter sur les éléments inline */
+}
+
+div {
+    background-color: aliceblue;
+    border: 2px solid lightskyblue;
+    padding: 20px;
+    margin: 20px;
+}
+
