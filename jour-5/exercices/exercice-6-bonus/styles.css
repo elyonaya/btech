@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: lightgray;
+}
+
+ul {
+    text-align: center;
+    background-color: lightslategray;
+    padding: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgb(173, 170, 170);
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 25px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, h4, p {
+    margin: 20px;
+}
