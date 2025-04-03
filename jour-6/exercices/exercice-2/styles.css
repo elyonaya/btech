@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 120px;
+    border: 2px pink solid;
+    margin: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+#paragraph1 {
+    background-color: lightcoral;
+}
+
+#paragraph2 {
+    background-color: lightblue;
+}
+
+#paragraph3 {
+    background-color: lightgreen;
+}

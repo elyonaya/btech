@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 500px;
+    height: 120px;
+    border: 2px pink solid;
+    margin: 10px;
+}
+
+#container1 {
+    justify-content: space-around;
+}
+
+#container2 {
+    justify-content: space-between;
+}
+
+#container3 {
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 5px;
+}
+
+.paragraph1 {
+    background-color: lightcoral;
+}
+
+.paragraph2 {
+    background-color: lightblue;
+}
+
+.paragraph3 {
+    background-color: lightgreen;
+}
