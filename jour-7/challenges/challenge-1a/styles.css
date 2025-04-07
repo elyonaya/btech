@@ -1,0 +1,49 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Modifiez le code ci-dessous pour remplacer les "???" par une class ou un id (uniquement) */
+
+#en-tete {
+  background-color: darkslateblue;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+.paragraphes {
+  padding: 15px;
+}
+
+#contact {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: darkslateblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+#titre-principal {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.texte-gras, .titre-section {
+  font-weight: bold;
+}
+
+.titre-section {
+  color: darkslateblue;
+  margin-top: 20px;
+}
