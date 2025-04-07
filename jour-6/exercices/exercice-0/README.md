@@ -26,7 +26,7 @@ Répondez aux questions ci-dessous, en supprimant les réponses qui vous semblen
 
 **Quels sont les composants d'une flexbox ?**
 
-1. Seulement des balises parents
+2. Des balises parents et enfants
 
 ---
 
