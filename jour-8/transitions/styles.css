@@ -1,0 +1,59 @@
+div {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 40px;
+}
+
+#div1 {
+    transition-property: all; /* propriété par défaut */
+}
+
+#div1:hover{
+    background-color: lightskyblue;
+    width: 250px;
+}
+
+#div2 {
+    transition-property: all; /* propriété par défaut */
+    transition-delay: 0.5s;
+}
+
+#div2:hover{
+    background-color: lightskyblue;
+    width: 250px;
+}
+
+#div3 {
+    transition-property: all; /* propriété par défaut */
+    transition-duration: 2.5s;
+}
+
+#div3:hover{
+    background-color: lightskyblue;
+    width: 250px;
+}
+
+#div4 {
+    transition-property: all; /* propriété par défaut */
+    transition-duration: 2.5s;
+    transition-timing-function: ease; /* propriété par défaut */
+}
+
+#div4:hover {
+    background-color: lightskyblue;
+    width: 250px;
+}
+
+#div5 { 
+    /* transition-property: all;
+    transition-duration: 2.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 1.5s; */
+    transition: all 2.5s ease-out 1.5s; /* raccourci des 4 lignes précédentes */
+}
+
+#div5:hover {
+    background-color: lightskyblue;
+    width: 250px;
+}
