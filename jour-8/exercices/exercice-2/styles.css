@@ -1,0 +1,12 @@
+#card {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    opacity: 0.3;
+    transition-duration: 0,4s;
+    transition-timing-function: linear;
+}
+
+#card:hover {
+    border: 5px dotted lightskyblue;
+}

@@ -1,0 +1,9 @@
+img {
+    opacity: 0.3;
+    transition-duration: 2.5s;
+    transition-timing-function: ease-out;
+}
+
+img:hover {
+    opacity: 1;
+}

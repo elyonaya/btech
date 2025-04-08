@@ -1,0 +1,13 @@
+p {
+    width: 200px;
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    margin-left: -150px;
+    transition-duration: 0,3s;
+    transition-timing-function: ease-in-out;
+}
+
+p:hover {
+    margin-left: 30px;
+}

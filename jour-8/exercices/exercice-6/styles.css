@@ -1,0 +1,14 @@
+p {
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+@keyframes blink {
+    from {
+        color: transparent;
+    }
+    to {
+        color: black;
+    }
+}
