@@ -1,0 +1,30 @@
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    animation: button-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: all 2s ease;
+}
+
+button:hover {
+    background-color: lightblue;
+    transform: scale(1.2);
+    animation: none;
+}
+
+@keyframes button-color {
+    0% {
+        background-color: lightgreen;
+    }
+    50% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: lightcoral;
+    }
+}

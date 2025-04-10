@@ -1,0 +1,15 @@
+div {
+    background-color: lightsalmon;
+    color: white;
+    width: 200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-150px);
+    transition: all 2s ease;
+}
+
+div:hover {
+    transform: translateX(0);
+}
