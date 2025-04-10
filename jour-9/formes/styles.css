@@ -1,0 +1,26 @@
+#carre {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+}
+
+#rectangle {
+    background-color: lightgreen;
+    width: 100px;
+    height: 50px;
+}
+
+#cercle {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid lightsalmon;
+}

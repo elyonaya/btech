@@ -1,0 +1,52 @@
+div {
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 100px;
+}
+
+#div1 { 
+    /* transform: translateX(40px); /* décale l'élément de 40px vers la droite
+    /* transform: translateY(20px); décale l'élément de 20px vers le bas */
+    /* transform: translateX(-40px); décale l'élément de 20px vers la gauche */
+    /* transform: translateY(-20px); décale l'élément de 20px vers le haut */
+    transform: translate(40px, 20px); /*  décale l'élément de 40px vers la droite et de 20px vers le bas */
+}
+
+#div2 {
+    transform: rotate(45deg); /* tourne l'élément de 45° vers la droite */
+    /* transform: rotate(-45deg); */ /* tourne l'élément de 45° vers la gauche */
+}
+
+#div3 {
+    transform: scale(1.5); /* agrandit l'élément de 50% */
+    /* transform: scale(0.5); */ /* réréduit l'élément de 50% */
+}
+
+#div4 {
+    transform: translate(40px, 20px) rotate(45deg) scale(1.5); /* combine les transformations */
+}
+
+#div5 { /*combine les transitions et les transformations */
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#div5:hover {
+    transform: scale(1.3); /* agrandit l'élément de 30% lors du passage de la souris */
+}
+
+#div6 { /* combine les animations et les transformations */
+    animation-name: rotate-div ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotate-div {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
