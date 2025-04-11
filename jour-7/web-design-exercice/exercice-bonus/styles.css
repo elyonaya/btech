@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal-title-paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+img {
+    margin: 40px 10px;
+    border-radius: 5px;
+}

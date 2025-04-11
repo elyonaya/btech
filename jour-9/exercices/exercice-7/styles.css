@@ -11,10 +11,14 @@ div {
     transition: all 1s ease;
 }
 
+p {
+    transform: rotate(180deg);
+}
+
 div:hover {
     background-color: brown;
     color: white;
-    transform: rotate(360deg);
+    transform: rotate(180deg);
     border-radius: 50px;
     box-shadow: 5px 5px 5px lightgray;
 }
