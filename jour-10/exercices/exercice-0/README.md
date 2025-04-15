@@ -29,9 +29,6 @@ Répondez aux questions ci-dessous, en supprimant les réponses qui vous semblen
 **De quoi a-t-on besoin pour déplacer un élément avec une position `relative` ?**
 
 1. Au moins une direction comme "top", "bottom", "left" ou "right"
-2. Un parent lui-même avec une position `relative`
-3. Être à l'intérieur d'un parent, peu importe sa position
-4. Avoir une hauteur et une largeur spécifique
 
 ---
 
@@ -44,9 +41,6 @@ footer {
 }
 ```
 
-1. `static` et `position`
-2. `relative` et `top`
-3. `absolute` et `position`
 4. `fixed` et `bottom`
 
 ---
@@ -73,7 +67,4 @@ footer {
 
 (Ordre ".parent" et ".enfant" ci-après)
 
-1. `absolute` et `relative`
 2. `relative` et `absolute`
-3. `relative` et `relative`
-4. `absolute` et `absolute`
