@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+@media only screen and (min-width: 230px) and (max-width: 768px) {
+    p {
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    p {
+        color: blue;
+    }
+}

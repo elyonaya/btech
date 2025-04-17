@@ -1,0 +1,25 @@
+breakpoints standards
+
+largeur         exemples
+320-480px       mobiles
+481-768px       tablettes
+769-1024px      ordinateurs portables, petits écrans
+1025-1200px     ordinateurs fixs, grands écrans
+1201px ou +     TV, écrans extra-larges
+
+
+syntaxe 
+
+@media only screen and (max-width: 768px) {
+…
+}
+
+- screen : type de media (screen, print, speech)
+- max-width : caractéristiques média (max-width, min-width, orientation)
+- only et and : opérateurs logiques (only, and, , , not), ils peuvent être combinés
+
+
+la balise méta viewport
+
+- fixe la largeur de l'affichage sur la largeur de l'appareil mobile
+- met le document HTML à 100% de sa taille voulue

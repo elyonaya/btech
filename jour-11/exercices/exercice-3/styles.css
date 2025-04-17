@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+}
+
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: green;
+}
+
+#div3 { 
+    background-color: blue;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        flex-direction: column-reverse;
+    }
+}
