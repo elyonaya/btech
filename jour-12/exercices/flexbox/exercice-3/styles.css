@@ -1,0 +1,38 @@
+#blue-container, #green-container, #red-container {
+    width: 650px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px
+}
+
+#blue-container {
+    justify-content: space-around;
+}
+
+#green-container {
+    justify-content: space-between;
+}
+
+#red-container {
+    justify-content: space-evenly;
+}
+
+#blue-container div, #green-container div, #red-container div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#blue-container div {
+    background-color: lightblue;
+}
+
+#green-container div {
+    background-color: lightgreen;
+}
+
+#red-container div {
+    background-color: lightcoral;
+}

@@ -1,0 +1,28 @@
+#container {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#blue-container, #green-container, #red-container {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#blue-container {
+    background-color: lightblue;
+    height: 60%;
+}
+
+#green-container {
+    background-color: lightgreen;
+    height: 40%;
+}
+
+#red-container {
+    background-color: lightcoral;
+}

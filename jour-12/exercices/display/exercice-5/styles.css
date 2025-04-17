@@ -1,0 +1,8 @@
+a {
+    display: inline-block;
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}

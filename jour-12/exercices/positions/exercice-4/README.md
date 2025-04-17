@@ -1,6 +1,6 @@
 # Jour 12 : Révisions - Positions
 
-## Exercice 3 :
+## Exercice 4 :
 
 > Pour cet exercice, vous aurez besoin d'utiliser les propriétés de [`positions`](https://developer.mozilla.org/fr/docs/Web/CSS/position), pas `display`, pas `flexbox`, ni `transform`.
 
