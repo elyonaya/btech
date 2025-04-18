@@ -1,0 +1,25 @@
+#card {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    border-radius: 25px;
+}
+
+#circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}

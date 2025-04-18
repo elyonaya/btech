@@ -1,0 +1,15 @@
+#red {
+    background-color: lightcoral;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#blue {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

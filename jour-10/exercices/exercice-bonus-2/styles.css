@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body > p {
+    line-height: 50px;
+}
+
+#circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: lightblue;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+#circle:hover {
+    transform: scale(1.1);
+}
+
+#circle:active {
+    background-color: lightskyblue;
+}

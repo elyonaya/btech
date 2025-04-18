@@ -1,0 +1,58 @@
+.container {
+    display: none;
+}
+
+#open-card:checked ~ .container {
+    display: block;
+}
+
+#close-card:checked ~ .container {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+body > label {
+    border: 2px solid lightcoral;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+body > label:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border: 2px solid lightcoral;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

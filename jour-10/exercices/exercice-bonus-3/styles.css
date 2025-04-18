@@ -1,0 +1,41 @@
+#red {
+    background-color: lightcoral;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#blue {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    25% {
+        top: 200px;
+        right: 0;
+    }
+    50% {
+        top: 200px;
+        right: 200px;
+    }
+    75% {
+        top: 0;
+        right: 200px;
+    }
+    100% {
+        top: 0;
+        right: 0;
+    }
+}

@@ -1,0 +1,76 @@
+#red {
+    background-color: lightcoral;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#blue {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation-name: move-right;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-right {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    25% {
+        top: 200px;
+        right: 0;
+    }
+    50% {
+        top: 200px;
+        right: 200px;
+    }
+    75% {
+        top: 0;
+        right: 200px;
+    }
+    100% {
+        top: 0;
+        right: 0;
+    }
+}
+
+#green {
+    background-color: lightgreen;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-name: move-left;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move-left {
+    0% {
+        bottom: 0;
+        left: 0;
+    }
+    25% {
+        bottom: 0;
+        left: 150px;
+    }
+    50% {
+        bottom: 150px;
+        left: 150px;
+    }
+    75% {                
+        bottom: 150px;
+        left: 0;
+    }
+    100% {
+        bottom: 0;
+        left: 0;
+    }  
+}

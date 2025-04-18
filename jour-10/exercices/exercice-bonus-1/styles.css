@@ -1,0 +1,24 @@
+#container {
+    border: 5px solid black;
+    margin: 40px;
+    padding: 40px;
+    position: relative;
+}
+
+#bloc {
+    background-color: lightsalmon;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+#container:hover > #bloc {
+    z-index: 0; 
+}
